@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1481212603059696}
+  m_IsPrefabAsset: 1
+--- !u!1 &1481212603059696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4663340267684876}
+  - component: {fileID: 114083655760063100}
+  - component: {fileID: 114347375761224020}
+  - component: {fileID: 114723631010453800}
+  - component: {fileID: 114454429314834674}
+  - component: {fileID: 114160232745140272}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4663340267684876
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1481212603059696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114083655760063100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1481212603059696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b55d13424e8ea044bac70e88d586b6c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxRefugees: 4000
+  terrain: {fileID: 0}
+--- !u!114 &114160232745140272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1481212603059696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8960af06fc712fc46974fa4698e11ea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 0}
+--- !u!114 &114347375761224020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1481212603059696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d63e75adaa35094ba0bac3518dc25cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UICanvas: {fileID: 0}
+  boat: {fileID: 0}
+--- !u!114 &114454429314834674
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1481212603059696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e2aefae3d694649a8cfb64fcec83e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 4d5f29f3002a39d428a09babbd7ddf4d, type: 3}
+  - {fileID: 8300000, guid: 4a9e31f8305f34742bac2716a5f6920f, type: 3}
+  - {fileID: 8300000, guid: 47d45cde0a9b8994e8f9c66a6cf2d513, type: 3}
+  PickUpRefugee:
+  - {fileID: 8300000, guid: 9a2d3832a1070094ca0d03fc63a81422, type: 3}
+  - {fileID: 8300000, guid: 86051db4998c6f746986c54dcf177225, type: 3}
+  - {fileID: 8300000, guid: 1d234504645ad7944958193d5468b52d, type: 3}
+  - {fileID: 8300000, guid: 5bbd7b80106d602429bfadfe2582384a, type: 3}
+  - {fileID: 8300000, guid: 91bea6f9bd77c79489cd60f9b8a20e5b, type: 3}
+  - {fileID: 8300000, guid: 70ae04a24144b2b4a98bb218c265bc8c, type: 3}
+  - {fileID: 8300000, guid: a8a5dcedce336cd4db8e3da3b7a86589, type: 3}
+  boatSource: {fileID: 0}
+  portSource: {fileID: 0}
+--- !u!114 &114723631010453800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1481212603059696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39e4fe77829ec744d841386bdf493c50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noOfWeather: 12
+  weatherPrefabs:
+  - {fileID: 1110468916389082, guid: 70632b6b3f8dc8f429b7b511452f0060, type: 2}
+  - {fileID: 1480054783104120, guid: 94acc0e0259d0054499de891dd2e2205, type: 2}

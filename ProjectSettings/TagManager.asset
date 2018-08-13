@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Island
+  - boat
+  - Water
+  - Fire
+  - refugee
+  - Terrain
+  - Pirate
+  - Port
+  - UI
   layers:
   - Default
   - TransparentFX
@@ -14,9 +23,9 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
-  - 
+  - Player
+  - Refugee
+  - MinimapStuff
   - 
   - 
   - 
